@@ -56,3 +56,10 @@ Platform team owns rules, skills, `deprecated-apis.json`, and manifest bumps. Se
 - Approved packages: `scripts/approved-packages.txt`
 - No external code ingestion (Team Rules + company plugin)
 - Push hooks require **trusted workspace**
+
+## Cursor Cloud specific instructions
+
+- This repo is a pure Python project (Python 3.12): a pandas stand-in library (`examples/pandas-standin/`) plus Trailhead quality-gate tooling. There is **no server, web app, or long-running service** — "run the app" means exercising the library and running the gates.
+- Standard commands are in the `Makefile`: `make check` (deterministic gate), `make test` (gate + both pytest suites), `make test-standin`, `make test-trailhead`.
+- Do **not** run `make setup` in cloud: `scripts/trailhead-setup.sh` requires a git `upstream` remote (fork workflow) and exits non-zero without it. Set `TRAILHEAD_SKIP_FORK_CHECK=1` if you must run it; dependency install is already handled by the update script.
+- Running the stand-in pytest directly requires `PYTHONPATH=.` from `examples/pandas-standin/` (the Makefile targets already set this).
