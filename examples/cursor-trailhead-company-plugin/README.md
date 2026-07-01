@@ -1,6 +1,6 @@
 # org-trailhead — Company plugin package
 
-Import this directory (or a dedicated repo with the same layout) to **Cursor Team Marketplace**. Mark **Required** for zero-install company standards.
+Publish as **`WeLearnt/cursor-trailhead-company-plugin`** (separate repo). App repo: [`WeLearnt/Trailhead`](https://github.com/WeLearnt/Trailhead).
 
 ## Contents
 
