@@ -1,6 +1,10 @@
 # Trailhead — Agent Context (pandas stand-in app repo)
 
-This repository demonstrates **Trailhead**: onboarding toolkit for convention-heavy libraries. The stand-in is [pandas](https://github.com/pandas-dev/pandas).
+This repository is **WeLearnt/Trailhead** — the app-repo layer of Trailhead onboarding.
+
+Stand-in library: [pandas](https://github.com/pandas-dev/pandas) (demo slice in `examples/pandas-standin/`).
+
+**Org repo:** https://github.com/WeLearnt/Trailhead
 
 ## Three layers (Cursor-native)
 

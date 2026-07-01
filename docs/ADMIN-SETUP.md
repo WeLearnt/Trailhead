@@ -5,7 +5,8 @@ One-time setup for Priya's platform team. Requires **Cursor Teams** (Jack's demo
 ## Prerequisites
 
 - Team admin access (Seat 1 or Unpaid Admin)
-- GitHub repo containing `examples/cursor-trailhead-company-plugin/` (or dedicated `WeLearnt/cursor-trailhead-company-plugin` repo)
+- GitHub: [`WeLearnt/Trailhead`](https://github.com/WeLearnt/Trailhead) (this repo)
+- Plugin repo (separate): `WeLearnt/cursor-trailhead-company-plugin` — copy from `examples/cursor-trailhead-company-plugin/`
 - Cursor GitHub App installed on the org (for marketplace auto-refresh on push)
 
 ## Step 1: Import team marketplace

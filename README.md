@@ -1,8 +1,8 @@
 # Trailhead
 
-**Trailhead** is a demo/reference implementation of Cursor-native engineer onboarding for convention-heavy internal libraries. It encodes standards into rules, skills, hooks, and a thin check script — without rebuilding CI/CD.
+**Canonical repo:** https://github.com/WeLearnt/Trailhead
 
-This repo uses a **pandas stand-in** (`examples/pandas-standin/`) so you can demo first contributions without cloning 3,500 files.
+**Trailhead** is a demo-ready Cursor onboarding toolkit for convention-heavy internal libraries, using a pandas stand-in. Built for **WeLearnt** (Priya Nair, Platform Engineering Lead).
 
 ## Quick start
 

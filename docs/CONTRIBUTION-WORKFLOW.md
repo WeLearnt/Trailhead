@@ -7,7 +7,7 @@ Trailhead **encodes** your existing process; it does not replace merge queues, C
 1. **Fork** the org repo to your GitHub account
 2. **Clone your fork**
    ```bash
-   git clone https://github.com/<you>/trailhead.git
+   git clone https://github.com/<you>/Trailhead.git
    cd trailhead
    git remote add upstream https://github.com/WeLearnt/Trailhead.git
    git fetch upstream

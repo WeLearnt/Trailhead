@@ -1,61 +1,45 @@
 # WeLearnt GitHub org — setup checklist
 
-Priya's company org is live: **https://github.com/WeLearnt**
+**Canonical app repo:** https://github.com/WeLearnt/Trailhead
 
-Use this after the org exists and before the two-seat Teams demo.
+Priya's company org: **https://github.com/WeLearnt**
 
-## 1. Create org repos
+## Repos
 
-| Repo | Purpose | Source |
+| Repo | Purpose | Status |
 |------|---------|--------|
-| `WeLearnt/Trailhead` | App repo (this toolkit + pandas stand-in) | Transfer from `jackbrad/Trailhead` or push `main` + PR branch |
-| `WeLearnt/cursor-trailhead-company-plugin` | Required Team Marketplace plugin | Copy `examples/cursor-trailhead-company-plugin/` from Trailhead |
+| [`WeLearnt/Trailhead`](https://github.com/WeLearnt/Trailhead) | App repo — rules, skills, hooks, stand-in, docs | **Primary** |
+| `WeLearnt/cursor-trailhead-company-plugin` | Required Team Marketplace plugin | Create next — copy `examples/cursor-trailhead-company-plugin/` |
 
-**Plugin repo layout:** root contains `.cursor-plugin/`, `rules/`, `skills/` — see `examples/cursor-trailhead-company-plugin/README.md`.
+## Clone (engineers)
 
-## 2. Transfer or publish Trailhead app repo
-
-Option A — **Transfer** (keeps PR history):
-
-1. GitHub → `jackbrad/Trailhead` → Settings → Transfer ownership → `WeLearnt`
-2. Update local remote: `git remote set-url origin https://github.com/WeLearnt/Trailhead.git`
-
-Option B — **New repo** under org:
+Fork `WeLearnt/Trailhead` on GitHub, then:
 
 ```bash
-gh repo create WeLearnt/Trailhead --public --source=. --remote=welearnt --push
-```
-
-## 3. Engineer fork (Seat 2 demo account)
-
-On the **engineer** GitHub account (not admin):
-
-```bash
-# Fork WeLearnt/Trailhead in GitHub UI, then:
-git clone https://github.com/<engineer-user>/Trailhead.git
+git clone https://github.com/<you>/Trailhead.git
 cd Trailhead
 git remote add upstream https://github.com/WeLearnt/Trailhead.git
 git fetch upstream
 make setup
 ```
 
-## 4. Cursor Team Marketplace
+## Cursor Team Marketplace (Seat 1 / admin)
 
 1. Dashboard → Settings → Plugins → Team Marketplaces → **Import**
-2. URL: `https://github.com/WeLearnt/cursor-trailhead-company-plugin`
+2. URL: `https://github.com/WeLearnt/cursor-trailhead-company-plugin` (after plugin repo exists)
 3. Mark `org-trailhead` **Required**
-4. Install Cursor GitHub App on **WeLearnt** org (for auto-refresh on plugin push)
+4. Install Cursor GitHub App on **WeLearnt** org
 
 See [ADMIN-SETUP.md](ADMIN-SETUP.md).
 
-## 5. Verify remotes
+## Remotes
 
 ```bash
 git remote -v
-# origin  → engineer fork (Seat 2) OR WeLearnt/Trailhead (admin)
+# origin   → your fork (Seat 2) or WeLearnt/Trailhead (admin clone)
 # upstream → https://github.com/WeLearnt/Trailhead.git
 ```
 
-## 6. Demo dry run
+## Demo dry run
 
 [PREREQUISITES.md](PREREQUISITES.md) → [DEMO-CHECKLIST.md](DEMO-CHECKLIST.md) → [DEMO-WALKTHROUGH.md](DEMO-WALKTHROUGH.md)

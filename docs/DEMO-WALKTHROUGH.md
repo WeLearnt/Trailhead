@@ -20,8 +20,8 @@
 ### 2. Setup (2 min)
 
 ```bash
-git clone <fork-url>
-cd trailhead
+git clone https://github.com/WeLearnt/Trailhead.git
+cd Trailhead
 make setup
 ```
 

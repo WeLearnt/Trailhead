@@ -1,6 +1,7 @@
 # Prerequisites — Jack's demo checklist
 
-**Customer:** Priya Nair, Platform Engineering Lead, **WeLearnt**. Org: https://github.com/WeLearnt — see [ORG-SETUP.md](ORG-SETUP.md).
+**Customer:** Priya Nair, Platform Engineering Lead, **WeLearnt**.  
+**App repo:** https://github.com/WeLearnt/Trailhead — see [ORG-SETUP.md](ORG-SETUP.md).
 
 ## Cursor license (locked: Tier C)
 
