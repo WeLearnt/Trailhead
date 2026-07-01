@@ -17,12 +17,12 @@ git remote -v
 
 Required:
 - `origin` → engineer's fork
-- `upstream` → org canonical repo
+- `upstream` → Meridian Systems canonical repo (`meridian-systems/trailhead`)
 
 If `upstream` is missing, stop and show:
 
 ```bash
-git remote add upstream https://github.com/<org>/trailhead.git
+git remote add upstream https://github.com/meridian-systems/trailhead.git
 git fetch upstream
 git checkout main
 git pull upstream main --ff-only

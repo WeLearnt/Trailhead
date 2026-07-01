@@ -1,5 +1,7 @@
 # Trailhead Approach — Response to Priya
 
+**Demo customer:** **Meridian Systems** — fictional B2B data platform company (~800 engineers). **Priya Nair**, Platform Engineering Lead, owns onboarding for convention-heavy internal Python libraries.
+
 ## The problem worth solving first
 
 **Time to a correct first PR** — not "learn the entire library." If the first PR is wrong, review cycles multiply. Trailhead targets **days, not weeks**, for convention-compliant first contributions.

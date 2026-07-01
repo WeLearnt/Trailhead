@@ -1,5 +1,7 @@
 # Demo walkthrough — ~15 minutes (Teams two-seat)
 
+**Audience:** Priya Nair, Platform Engineering Lead, **Meridian Systems**.
+
 **Act 1** can be pre-done; **Act 2** is the live engineer story on Seat 2.
 
 ## Act 1 — Admin (Seat 1, ~2 min)

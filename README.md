@@ -33,6 +33,10 @@ Team Rules (enforce) + Required plugin (company) + app repo config + trailhead-c
 
 See [docs/RULE-LAYERING.md](docs/RULE-LAYERING.md) and [docs/APPROACH.md](docs/APPROACH.md).
 
+## Demo customer
+
+**Meridian Systems** — fictional B2B data platform company. **Priya Nair** (Platform Engineering Lead) is the buyer persona for this demo. GitHub org placeholder: `meridian-systems`.
+
 ## Demo with Priya (Teams × 2 seats)
 
 Jack's locked demo tier: **$80/mo** for two Teams Standard seats — admin setup + fresh engineer login. See [docs/PREREQUISITES.md](docs/PREREQUISITES.md) and [docs/DEMO-WALKTHROUGH.md](docs/DEMO-WALKTHROUGH.md).

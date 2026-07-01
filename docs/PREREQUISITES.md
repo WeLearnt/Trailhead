@@ -1,5 +1,7 @@
 # Prerequisites — Jack's demo checklist
 
+**Customer:** Priya Nair, Platform Engineering Lead, **Meridian Systems** (fictional B2B data platform, ~800 engineers).
+
 ## Cursor license (locked: Tier C)
 
 | Item | Cost |

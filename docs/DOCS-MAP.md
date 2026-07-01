@@ -1,6 +1,6 @@
 # Docs map — Trailhead vs existing documentation
 
-**Rule for Priya:** Docs stay canonical for narrative. Trailhead makes them **executable at edit time**.
+**Rule for Priya (Meridian Systems):** Docs stay canonical for narrative. Trailhead makes them **executable at edit time**.
 
 | Trailhead artifact | Replaces wiki? | Maps to (pandas example) |
 |--------------------|----------------|--------------------------|

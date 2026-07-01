@@ -1,4 +1,4 @@
-# Demo checklist — 10 minutes before Priya
+# Demo checklist — 10 minutes before Priya (Meridian Systems)
 
 ## Teams (Tier C — $80/mo)
 
