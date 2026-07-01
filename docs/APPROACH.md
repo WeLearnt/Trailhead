@@ -1,6 +1,6 @@
 # Trailhead Approach — Response to Priya
 
-**Demo customer:** **Meridian Systems** — fictional B2B data platform company (~800 engineers). **Priya Nair**, Platform Engineering Lead, owns onboarding for convention-heavy internal Python libraries.
+**Demo customer:** **WeLearnt** — fictional B2B data platform company (~800 engineers). **Priya Nair**, Platform Engineering Lead, owns onboarding for convention-heavy internal Python libraries.
 
 ## The problem worth solving first
 

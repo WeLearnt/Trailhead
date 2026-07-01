@@ -14,7 +14,7 @@ Use during 4-week pilot with 5–8 engineers. See [PILOT-PLAYBOOK.md](PILOT-PLAY
 
 ## Baseline worksheet (fill before pilot)
 
-| Metric | Baseline (Meridian Systems) | Target after 4 weeks |
+| Metric | Baseline (WeLearnt) | Target after 4 weeks |
 |--------|---------------------|----------------------|
 | Days to first merged PR | | |
 | Review rounds on first PR | | |

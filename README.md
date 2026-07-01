@@ -35,7 +35,7 @@ See [docs/RULE-LAYERING.md](docs/RULE-LAYERING.md) and [docs/APPROACH.md](docs/A
 
 ## Demo customer
 
-**Meridian Systems** — fictional B2B data platform company. **Priya Nair** (Platform Engineering Lead) is the buyer persona for this demo. GitHub org placeholder: `meridian-systems`.
+**WeLearnt** — fictional B2B data platform company. **Priya Nair** (Platform Engineering Lead) is the buyer persona for this demo. GitHub org placeholder: `welearnt`.
 
 ## Demo with Priya (Teams × 2 seats)
 
