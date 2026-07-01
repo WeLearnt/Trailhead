@@ -1,0 +1,14 @@
+{
+  "name": "trailhead-company-standards",
+  "owner": {
+    "name": "Platform Engineering"
+  },
+  "plugins": [
+    {
+      "name": "org-trailhead",
+      "description": "Company-wide Python conventions and shared onboarding skills",
+      "version": "1.2.0",
+      "source": "."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "install": "pip install -r requirements-dev.txt && TRAILHEAD_SKIP_FORK_CHECK=1 make test"
+}

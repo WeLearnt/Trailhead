@@ -1,0 +1,13 @@
+{
+  "deprecated_apis": [
+    {
+      "name": "legacy_normalize",
+      "module": "pandas.core.ops.common",
+      "replacement": "normalize_values",
+      "removed_in": "3.0"
+    }
+  ],
+  "forbidden_patterns": [
+    "legacy_normalize("
+  ]
+}

@@ -1,0 +1,6 @@
+# Approved third-party packages for new code in the pandas stand-in.
+# Company security policy maintains the canonical list; this file is the
+# app-repo copy referenced by rules and the Required company plugin.
+
+numpy
+pytest

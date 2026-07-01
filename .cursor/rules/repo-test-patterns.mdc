@@ -1,0 +1,31 @@
+---
+description: Test patterns for the pandas stand-in
+globs: examples/pandas-standin/pandas/tests/**/*.py
+alwaysApply: false
+---
+
+# Test Patterns (repo)
+
+## Structure
+
+- Test class names: `Test<FeatureName>`
+- Use `pytest` fixtures; prefer `@pytest.fixture` over `setup_method`
+- Import the module under test directly (no wildcard imports)
+
+## Coverage expectations
+
+Each new public function should have:
+
+1. **Happy path** — typical valid input
+2. **Edge case** — empty, zero, boundary, or dtype edge
+3. **Error case** — invalid input raises the expected exception
+
+Weak tests (e.g. only `assert result is not None`) will fail QA review — assert concrete behavior.
+
+## Running tests
+
+```bash
+make test-standin
+```
+
+Full pytest with coverage is handled by the customer's CI — Trailhead checks collection smoke via `make check`.

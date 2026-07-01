@@ -1,0 +1,29 @@
+---
+description: Company-wide Python style conventions for all internal libraries
+alwaysApply: true
+---
+
+# Python Base Conventions
+
+Apply these standards on every Python change unless a repo-specific rule overrides a path detail.
+
+## Imports and structure
+
+- No wildcard imports (`from module import *`)
+- Explicit imports only; group stdlib, third-party, local
+- Prefer small, focused modules over large catch-all files
+
+## Types and documentation
+
+- All new public functions require full type annotations
+- All new public functions require NumPy-style docstrings (Parameters, Returns, Examples)
+
+## Dependencies
+
+- Use only packages approved by security (see `scripts/approved-packages.txt` in the app repo)
+- Do not add dependencies without platform team approval
+
+## External code
+
+- Never copy code from Stack Overflow, gists, or external repositories
+- Implement using patterns from neighboring modules in the target library

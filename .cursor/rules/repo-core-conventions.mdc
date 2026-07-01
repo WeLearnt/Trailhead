@@ -1,0 +1,32 @@
+---
+description: Repo-specific conventions for the pandas stand-in library
+alwaysApply: true
+---
+
+# Repo Core Conventions (pandas stand-in)
+
+You are working on the Trailhead pandas stand-in under `examples/pandas-standin/`.
+
+## PR and commit standards
+
+- PR titles MUST use a prefix: `ENH:`, `BUG:`, `DOC:`, `TST:`, `BLD:`, `PERF:`, `TYP:`, or `CLN:`
+- One logical change per PR
+- Reference a GitHub issue when the change is non-trivial
+
+## Layout and tests
+
+- Source changes live under `examples/pandas-standin/pandas/core/`
+- Mirror tests under `examples/pandas-standin/pandas/tests/core/`:
+  - `pandas/core/ops/common.py` → `pandas/tests/core/ops/test_common.py`
+- Every new public function needs happy-path, edge-case, and error-case tests
+
+## Library-specific APIs
+
+- Check `scripts/deprecated-apis.json` before using existing functions
+- Do not use `legacy_normalize` — use `normalize_values`
+
+## Workflow
+
+- Run `make check` before pushing
+- Use `/scaffold-first-contribution` for guided first PRs
+- Use `/pre-push-quality-gate` before push

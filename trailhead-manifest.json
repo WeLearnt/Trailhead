@@ -1,0 +1,8 @@
+{
+  "trailhead_version": "1.0.0",
+  "company_plugin": {
+    "name": "org-trailhead",
+    "version": "1.2.0",
+    "minimum_version": "1.0.0"
+  }
+}

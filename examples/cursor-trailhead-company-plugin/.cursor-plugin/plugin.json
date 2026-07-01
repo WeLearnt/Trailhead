@@ -1,0 +1,9 @@
+{
+  "name": "org-trailhead",
+  "description": "Company-wide Python conventions and shared onboarding skills for Trailhead",
+  "version": "1.2.0",
+  "author": {
+    "name": "Platform Engineering"
+  },
+  "keywords": ["trailhead", "onboarding", "python", "conventions"]
+}

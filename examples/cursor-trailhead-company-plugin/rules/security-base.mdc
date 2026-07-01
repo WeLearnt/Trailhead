@@ -1,0 +1,25 @@
+---
+description: Company security boundaries for agent-assisted development
+alwaysApply: true
+---
+
+# Security Base Boundaries
+
+## Approved sources
+
+- Write code using this repository and approved internal libraries only
+- Do not paste or adapt code from external websites or unknown repositories
+
+## Package policy
+
+- Import only packages listed in the app repo `scripts/approved-packages.txt`
+- Do not run `pip install` for unapproved packages
+
+## Sensitive operations
+
+- Do not modify CI/CD deploy pipelines unless explicitly asked by platform engineering
+- Do not commit secrets, tokens, or credentials
+
+## When unsure
+
+- Ask the engineer before adding a dependency or integrating an external service
