@@ -18,7 +18,7 @@ if [[ "${TRAILHEAD_SKIP_FORK_CHECK:-}" != "1" ]]; then
     echo "Expected workflow:"
     echo "  1. Fork this repository on GitHub (engineer account)."
     echo "  2. git clone https://github.com/<you>/trailhead.git"
-    echo "  3. git remote add upstream https://github.com/welearnt/trailhead.git"
+    echo "  3. git remote add upstream https://github.com/WeLearnt/Trailhead.git"
     echo "  4. git fetch upstream"
     echo
     echo "Re-run after remotes are configured, or set TRAILHEAD_SKIP_FORK_CHECK=1 for local-only dev."

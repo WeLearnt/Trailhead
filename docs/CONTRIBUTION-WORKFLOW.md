@@ -9,7 +9,7 @@ Trailhead **encodes** your existing process; it does not replace merge queues, C
    ```bash
    git clone https://github.com/<you>/trailhead.git
    cd trailhead
-   git remote add upstream https://github.com/welearnt/trailhead.git
+   git remote add upstream https://github.com/WeLearnt/Trailhead.git
    git fetch upstream
    ```
 3. **Sync main**

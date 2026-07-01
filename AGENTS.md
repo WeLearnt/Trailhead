@@ -28,7 +28,7 @@ docs/                                 # Runbooks and demo guides
 
 ## Contribution workflow (summary)
 
-1. Fork WeLearnt repo (`welearnt/trailhead`); add `upstream` remote
+1. Fork WeLearnt repo (`WeLearnt/Trailhead`); add `upstream` remote
 2. `make setup` (local) or Cloud Dev Environment (see `docs/CLOUD-ONBOARDING.md`)
 3. Feature branch from synced `main`
 4. `/scaffold-first-contribution` → code + mirrored tests

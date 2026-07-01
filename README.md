@@ -35,7 +35,7 @@ See [docs/RULE-LAYERING.md](docs/RULE-LAYERING.md) and [docs/APPROACH.md](docs/A
 
 ## Demo customer
 
-**WeLearnt** — fictional B2B data platform company. **Priya Nair** (Platform Engineering Lead) is the buyer persona for this demo. GitHub org placeholder: `welearnt`.
+**WeLearnt** — B2B data platform company. **Priya Nair** (Platform Engineering Lead) is the buyer persona. GitHub org: [`WeLearnt`](https://github.com/WeLearnt). Setup: [docs/ORG-SETUP.md](docs/ORG-SETUP.md).
 
 ## Demo with Priya (Teams × 2 seats)
 

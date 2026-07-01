@@ -1,6 +1,6 @@
 # Trailhead Approach — Response to Priya
 
-**Demo customer:** **WeLearnt** — fictional B2B data platform company (~800 engineers). **Priya Nair**, Platform Engineering Lead, owns onboarding for convention-heavy internal Python libraries.
+**Demo customer:** **WeLearnt** — B2B data platform company (~800 engineers). **Priya Nair**, Platform Engineering Lead. GitHub org: [WeLearnt](https://github.com/WeLearnt). See [ORG-SETUP.md](ORG-SETUP.md).
 
 ## The problem worth solving first
 
