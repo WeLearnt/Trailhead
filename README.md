@@ -56,3 +56,5 @@ Jack's locked demo tier: **$80/mo** for two Teams Standard seats — admin setup
 - No new CI workflow YAML (optional one-liner documented)
 - No deploy pipeline changes
 - No auto-fork (fails with instructions if fork missing)
+
+<!-- GitHub push access check (cloud agent) -->
