@@ -1,4 +1,4 @@
-# Trailhead — Agent Context (pandas stand-in app repo)
+# Trailhead — Agent Context (pandas stand-in app repo) 
 
 This repository is **WeLearnt/Trailhead** — the app-repo layer of Trailhead onboarding.
 
