@@ -56,3 +56,13 @@ Platform team owns rules, skills, `deprecated-apis.json`, and manifest bumps. Se
 - Approved packages: `scripts/approved-packages.txt`
 - No external code ingestion (Team Rules + company plugin)
 - Push hooks require **trusted workspace**
+
+## Cursor Cloud specific instructions
+
+Pure-Python tooling repo — no server, web app, or long-running services. Dependencies are just `numpy` + `pytest` (`requirements-dev.txt`). The cloud environment is defined by `.cursor/environment.json` (builds `.cursor/Dockerfile`), so environment changes belong in those files, not a snapshot.
+
+- Run everything via the root `Makefile`: `make check` (deterministic gate = this repo's "lint"), `make test-standin`, `make test-trailhead`, and `make test` (all three). See README/Makefile for the exact commands.
+- There is no Ruff/other linter in this repo; generic style is enforced only by upstream CI. `make check` (`scripts/trailhead-check.py`) is the local gate.
+- `make setup` (and only that target) hard-fails without a git `upstream` remote. Use `TRAILHEAD_SKIP_FORK_CHECK=1` for local/cloud dev. Plain `make test`/`make check` do not need the remote.
+- Stand-in tests import an in-place `pandas` package with no install step; the Makefile already sets `PYTHONPATH=.` for `test-standin`. Replicate that if running pytest by hand from `examples/pandas-standin/`.
+- `pip install` places the `pytest` console script in `~/.local/bin` (not on PATH); invoke as `python3 -m pytest` (the Makefile already does).
